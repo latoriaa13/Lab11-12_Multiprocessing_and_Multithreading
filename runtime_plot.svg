@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <rect width="900" height="560" fill="white"/>
+  <text x="450" y="30" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold">Mandelbrot Generation Runtime vs. Number of Processes</text>
+
+  <g stroke="#d9d9d9" stroke-width="1">
+    <line x1="110" y1="470" x2="840" y2="470"/>
+    <line x1="110" y1="410" x2="840" y2="410"/>
+    <line x1="110" y1="350" x2="840" y2="350"/>
+    <line x1="110" y1="290" x2="840" y2="290"/>
+    <line x1="110" y1="230" x2="840" y2="230"/>
+    <line x1="110" y1="170" x2="840" y2="170"/>
+    <line x1="110" y1="110" x2="840" y2="110"/>
+    <line x1="110" y1="50" x2="840" y2="50"/>
+  </g>
+
+  <g stroke="#222" stroke-width="2">
+    <line x1="110" y1="50" x2="110" y2="470"/>
+    <line x1="110" y1="470" x2="840" y2="470"/>
+  </g>
+
+  <g fill="#222" font-family="sans-serif" font-size="14">
+    <text x="98" y="475" text-anchor="end">0</text>
+    <text x="98" y="415" text-anchor="end">20</text>
+    <text x="98" y="355" text-anchor="end">40</text>
+    <text x="98" y="295" text-anchor="end">60</text>
+    <text x="98" y="235" text-anchor="end">80</text>
+    <text x="98" y="175" text-anchor="end">100</text>
+    <text x="98" y="115" text-anchor="end">120</text>
+    <text x="98" y="55" text-anchor="end">140</text>
+
+    <text x="110" y="492" text-anchor="middle">0</text>
+    <text x="256" y="492" text-anchor="middle">10</text>
+    <text x="402" y="492" text-anchor="middle">20</text>
+    <text x="548" y="492" text-anchor="middle">30</text>
+    <text x="694" y="492" text-anchor="middle">40</text>
+    <text x="840" y="492" text-anchor="middle">50</text>
+
+    <text x="475" y="530" text-anchor="middle" font-size="17">Number of Processes</text>
+    <text x="28" y="260" text-anchor="middle" font-size="17" transform="rotate(-90 28 260)">Runtime (seconds)</text>
+  </g>
+
+  <g fill="none" stroke="#1464b4" stroke-width="4">
+    <line x1="124.6" y1="96.7" x2="139.2" y2="347.7"/>
+    <line x1="139.2" y1="347.7" x2="183" y2="417.4"/>
+    <line x1="183" y1="417.4" x2="256" y2="439.7"/>
+    <line x1="256" y1="439.7" x2="402" y2="446.2"/>
+    <line x1="402" y1="446.2" x2="840" y2="444.2"/>
+  </g>
+
+  <g fill="#1464b4" stroke="white" stroke-width="2">
+    <circle cx="124.6" cy="96.7" r="6"/>
+    <circle cx="139.2" cy="347.7" r="6"/>
+    <circle cx="183" cy="417.4" r="6"/>
+    <circle cx="256" cy="439.7" r="6"/>
+    <circle cx="402" cy="446.2" r="6"/>
+    <circle cx="840" cy="444.2" r="6"/>
+  </g>
+
+  <g fill="#111" font-family="sans-serif" font-size="14" font-weight="bold">
+    <text x="135" y="87">124.439 s</text>
+    <text x="149" y="338">40.779 s</text>
+    <text x="193" y="407">17.531 s</text>
+    <text x="256" y="430" text-anchor="middle">10.086 s</text>
+    <text x="402" y="466" text-anchor="middle">7.944 s</text>
+    <text x="830" y="434" text-anchor="end">8.600 s</text>
+  </g>
+</svg>
